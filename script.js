@@ -7,7 +7,7 @@ if (idade <= 15 && idade >= 0) {
     document.write('O paciente é um jovem, com a idade de: ' + idade + ' anos.')
 } else if (idade >= 30 && idade < 60) {
     document.write('O paciente é um adulto, com a idade de: ' + idade + ' anos.')
-} else if (idade < 0) {
+} else if (idade < 0 || idade > 200) {
     document.write('A idade digitada (' + idade + ') é inválida.')
 } else {
     document.write('O paciente é um idoso, com a idade de: ' + idade + ' anos.')
